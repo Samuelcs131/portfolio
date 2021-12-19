@@ -10,6 +10,12 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+    
+        .project{
+            background-color: $dark-blue-main;
+            width: 100px;
+            height: 100px;
+        }
     }
 
 }

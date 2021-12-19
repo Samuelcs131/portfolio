@@ -49,3 +49,24 @@
     }
 }
 }
+
+@media screen and (max-width: 1024px) {
+    #apresentation{
+        overflow: hidden;
+        .group-text-apresentation{
+            .hello{ 
+                font-size: 20px;
+            }
+            .name{
+                font-size: 45px; 
+            }
+        
+            .office{ 
+                font-size: 45px; 
+            }
+            .resume{ 
+                font-size: 14px;
+            }
+        }
+    }
+}
