@@ -1,0 +1,51 @@
+#apresentation{
+    position: relative;
+    color: $text-white;
+    height: 85vh;
+    @include d-flex(none,center);
+    
+
+    .group-text-apresentation{
+    
+    
+    
+    .hello{ 
+        font-size: 25px;
+        font-weight: 200;
+        color: $clear-blue;
+    }
+    .name{
+        font-size: 75px;
+        font-weight: 500;
+         margin-bottom: -15px;
+       /* margin-top: -15px; */
+    }
+
+    .office{
+        color: #5f6575;
+        font-size: 75px;
+        font-weight: 500;
+    }
+
+    .view-more{
+        display: block;
+        margin-top: 30px;
+        border: 1px solid $clear-blue;
+        border-radius: 4px;
+        padding: 10px 20px;
+        color: $clear-blue;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .view-more:hover{
+        background-color: #64edff34;
+        transition: 0.3s;
+    }
+
+    .resume{
+        width: 600px;
+        font-size: 16px;
+    }
+}
+}

@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-track{
+    background-color: $dark-blue-main;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(212, 212, 212);
+}
+
+body{
+    overflow-x: hidden;
+    position: relative;
+    background-color: $dark-blue-main;
+    scrollbar-color: $dark-blue-main $dark-blue-main;
+}
+
+p {color: white;}
+
+h1,h2,h3,h4,h5,h6 {color: white;}

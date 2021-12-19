@@ -1,0 +1,15 @@
+#projects{
+    background-color: $dark-blue;
+    color: $text-white;
+
+    .title-section{
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .container-projects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+}

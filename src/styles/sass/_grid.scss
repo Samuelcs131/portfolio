@@ -1,0 +1,26 @@
+/* SM */
+.container{
+    @include grid-contaier(1140px);
+    padding: 0 50px;
+}
+.container-section{
+    @include grid-contaier(1140px);
+    padding: 100px 50px;
+}
+/* 
+/* MD  
+@media screen and (max-width: 1200px) {
+ 
+}
+
+/* LG 
+@media screen and (max-width: 992px) {
+ 
+}
+/* XL
+@media screen and (min-width: 1200px) {
+    .container{
+        padding: 0 50px;
+    }
+}
+  */

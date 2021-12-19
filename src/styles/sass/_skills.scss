@@ -1,0 +1,84 @@
+/* COLOR SKILLS */
+@mixin border-line($color) {
+    border:  1px solid;
+    border-image: linear-gradient( to top, $color, rgba(0, 0, 0, 0) ) 1;
+}
+
+#skills{
+    text-align: center;
+
+    .title-section{
+        margin-bottom: 80px;
+    }
+    .container-skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 80px;
+        justify-content: center;
+
+        .skill-item{
+            color: $text-white;
+            width: 150px;
+            height: 150px;
+            background-color: $dark-blue;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.3s; 
+            position: relative;
+
+            img{
+                width: 60px;
+                user-select: none;
+                position: relative;
+                margin: 0 auto;
+            }
+        }
+        .skill-item:hover{
+            transition: 0.3s;
+            transform: scale(1.2);
+        }
+        .skill-item:hover::after{
+            content: attr(s-name);
+            position: absolute;
+            bottom: 10px;
+        }
+
+        .s-html:hover{
+            @include border-line(#d53a5c);
+        }
+        .s-css:hover{
+            @include border-line(#3a82d5);
+        }
+        .s-js:hover{
+            @include border-line(#d5cb3a);
+        }
+        .s-sass:hover{
+            @include border-line(#d53a87);
+        }
+        .s-react:hover{
+            @include border-line(#3abed5);
+        }
+        .s-next:hover{
+            @include border-line(#dddddd);
+        }
+        .s-node:hover{
+            @include border-line(#73d53a);
+        }
+        .s-mysql:hover{
+            @include border-line(#006995);
+        }
+        
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+    #skills{
+        .container-skills{
+            gap: 70px;
+        }
+    }
+}
