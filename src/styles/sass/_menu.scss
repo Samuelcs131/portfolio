@@ -27,6 +27,7 @@
             li a{
                 margin: 0 20px;
                 color: white;
+                user-select: none;
             }
             li a:hover{
                 color: #64edff;
@@ -54,6 +55,7 @@
     .mobile-menu { 
         cursor: pointer;
         display: none;
+        user-select: none;
     }
     .mobile-menu div{
         width: 32px;
