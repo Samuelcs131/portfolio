@@ -82,3 +82,23 @@
         }
     }
 }
+
+@media screen and (max-width: 480px) {
+    #skills{
+        .container-skills{
+            gap: 30px;
+
+            .skill-item{ 
+                width: 120px;
+                height: 120px;
+            }
+        }
+
+        .skill-item:hover::after{
+            content: attr(s-name);
+            position: absolute; 
+            margin-bottom: -5px;
+            font-size: 12px;
+        }
+    }
+}
