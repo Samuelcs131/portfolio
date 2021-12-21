@@ -12,12 +12,14 @@ const Projects = () => {
                     <div className="container-project">
                         <div className="info-project">
                             <h1 className="title-project">DataSelic</h1>
-                            <p>Ajuda novos investidores a escolher e simular os melhores investimentos a curto prazo de forma fácil e prática.</p>
-
-                            <p className="tecnology-project">
-                                <span>Next.js</span> <span>Bootstrap</span> <span>Axios</span> <span>API Banco Central</span> <span>API IBGE</span> <span>Vercel</span>
-                            </p>
+                            <p>Uma forma fácil e prática de calcular seus investimento e os melhores investimentos de 2021.</p> 
                         </div> 
+
+                    <div className="group-down-project">
+                        <p className="tecnology-project">
+                                <span>Next.js</span> <span>Bootstrap</span> <span>Axios</span> <span>Vercel</span> <span>API Banco Central</span> <span>API IBGE</span> 
+                        </p>
+
                         <div className="icons-project"> 
                             <img src="/img/logo-dataselic-white.svg" alt="logo" width={40}/>
                             <div className="icons-right-project">
@@ -29,18 +31,22 @@ const Projects = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link"><title>DataSelic</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></Link>
                             </div>
                         </div>
+                    </div>
+                    
                     </div>
                     </div>
                     <div className="project pj-two"> 
                     <div className="container-project">
                         <div className="info-project">
                             <h1 className="title-project">DataSelic</h1>
-                            <p>Ajuda novos investidores a escolher e simular os melhores investimentos a curto prazo de forma fácil e prática.</p>
-
-                            <p className="tecnology-project">
-                                <span>Next.js</span> <span>Bootstrap</span> <span>Axios</span> <span>API Banco Central</span> <span>API IBGE</span> <span>Vercel</span>
-                            </p>
+                            <p>Uma forma fácil e prática de calcular seus investimento e os melhores investimentos de 2021.</p> 
                         </div> 
+
+                    <div className="group-down-project">
+                        <p className="tecnology-project">
+                                <span>Next.js</span> <span>Bootstrap</span> <span>Axios</span> <span>Vercel</span> <span>API Banco Central</span> <span>API IBGE</span> 
+                        </p>
+
                         <div className="icons-project"> 
                             <img src="/img/logo-dataselic-white.svg" alt="logo" width={40}/>
                             <div className="icons-right-project">
@@ -52,18 +58,22 @@ const Projects = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link"><title>DataSelic</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></Link>
                             </div>
                         </div>
+                    </div>
+                    
                     </div>
                     </div>
                     <div className="project pj-three"> 
                     <div className="container-project">
                         <div className="info-project">
                             <h1 className="title-project">DataSelic</h1>
-                            <p>Ajuda novos investidores a escolher e simular os melhores investimentos a curto prazo de forma fácil e prática.</p>
-
-                            <p className="tecnology-project">
-                                <span>Next.js</span> <span>Bootstrap</span> <span>Axios</span> <span>API Banco Central</span> <span>API IBGE</span> <span>Vercel</span>
-                            </p>
+                            <p>Uma forma fácil e prática de calcular seus investimento e os melhores investimentos de 2021.</p> 
                         </div> 
+
+                    <div className="group-down-project">
+                        <p className="tecnology-project">
+                                <span>Next.js</span> <span>Bootstrap</span> <span>Axios</span> <span>Vercel</span> <span>API Banco Central</span> <span>API IBGE</span> 
+                        </p>
+
                         <div className="icons-project"> 
                             <img src="/img/logo-dataselic-white.svg" alt="logo" width={40}/>
                             <div className="icons-right-project">
@@ -76,9 +86,12 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
+                    
                     </div>
+                    </div>
+                    
              
- 
+        {/* pj-two  pj-three */}
                 </div>
 
              

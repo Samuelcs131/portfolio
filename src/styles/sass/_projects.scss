@@ -10,7 +10,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-       /*  gap: 60px; */
     
         .project{
             background-color: $dark-blue-main;
@@ -25,6 +24,10 @@
 
             .container-project{
                 z-index: 1;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                height: 100%;
             }
         }
         /* PROJECT INFO */
@@ -34,21 +37,23 @@
             .title-project{
                 font-weight: 600;
                 font-size: 30px;
-                margin-top: 0px;
+                margin-top: 25px;
                 margin-bottom: 5px;
             }
             p{
                 font-size: 16px;
-            } 
-            .tecnology-project{
-                margin-top: 12px;
-                span{
-                    margin-right: 15px;
-                }
             }
         }
 
         /* PROJECT ICONS */
+        .tecnology-project{
+            margin-top: 30px;
+            span{
+                margin-right: 15px;
+                font-size: 14px;
+            }
+        }
+
         .icons-project{
             margin-top: 25px;
             display: flex;
@@ -121,4 +126,17 @@
         }
     }
 
+}
+
+@media screen and (max-width: 1140px) {
+    #projects{
+        .container-projects {
+            gap: 40px;
+            justify-content: center;
+            .project{
+                width: 700px; 
+            }
+            
+        }
+    }
 }
