@@ -5,10 +5,8 @@
     @include d-flex(none,center);
     
 
-    .group-text-apresentation{
-    
-    
-    
+    .group-text-apresentation{ 
+
     .hello{ 
         font-size: 25px;
         font-weight: 200;
@@ -50,7 +48,44 @@
 }
 }
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 920px) {
+    #apresentation{ 
+        .group-text-apresentation{ 
+            .hello{ 
+                font-size: 25px;
+            }
+            .name{
+                font-size: 55px; 
+            }
+            .office{
+                font-size: 55px;
+            } 
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #apresentation{ 
+        .group-text-apresentation{ 
+            .hello{ 
+                font-size: 15px;
+            }
+            .name{
+                font-size: 30px; 
+            }
+            .office{
+                font-size: 30px; 
+            }
+            .resume{ 
+                font-size: 16px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
     #apresentation{
         overflow: hidden;
         .group-text-apresentation{ 
@@ -72,3 +107,6 @@
         }
     }
 }
+
+
+

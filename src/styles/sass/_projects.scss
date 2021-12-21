@@ -140,3 +140,14 @@
         }
     }
 }
+
+@media screen and (max-width: 400px) {
+    #projects{
+        .container-projects { 
+            .project{
+                height: 450px;
+            }
+            
+        }
+    }
+}

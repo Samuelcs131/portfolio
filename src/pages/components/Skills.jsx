@@ -25,7 +25,7 @@ const Skills = () => {
                     <div className="skill-item s-next" s-name="Next.js">
                     <Image src="/img/nextjs.svg" width="60px" height="60px" alt="icone nextjs" /></div>
                     
-                    <div className="skill-item s-node" s-name="MySQL">
+                    <div className="skill-item s-node" s-name="NodeJs">
                     <Image src="/img/nodejs.svg" width="60px" height="60px" alt="icone nodejs" /></div>
                     
                     <div className="skill-item s-mysql" s-name="MySQL">
