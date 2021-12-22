@@ -1,6 +1,5 @@
 .navbar {
     z-index: 1000;
-    /* background-color: #070D1E; */
     backdrop-filter: blur(15px);
     background-color: #070d1ea8;
     position: fixed;
@@ -56,7 +55,6 @@
         cursor: pointer;
         display: none;
         user-select: none;
-       /*  pointer-events: none; */
     }
     .mobile-menu div{
         width: 32px;

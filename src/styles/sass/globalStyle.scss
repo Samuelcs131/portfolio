@@ -32,18 +32,24 @@ $clear-blue: #64edff;
 }
 
 
-
 /* MENU */
 @import './menu';
 /* SECTIONS */
-@import './section';
+@import './apresentation';
 /* ABOUT */
 @import './about';
 /* SKILLS */
 @import './skills';
 /* PROJECTS */
 @import './projects';
-
 /* GRID */ 
 @import './grid';
 
+
+@media screen and (max-width: 720px) {
+    .container-section {
+        .title-section{
+            font-size: 30px;
+        }
+    }
+}
