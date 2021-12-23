@@ -28,6 +28,7 @@
                 justify-content: space-between;
                 flex-direction: column;
                 height: 100%;
+                width: 100%;
             }
         }
         /* PROJECT INFO */
@@ -82,7 +83,7 @@
 
         /* PROJECT IMAGE */
         .pj-one{
-            background: url('https://getbootstrap.com/docs/5.0/examples/features/unsplash-photo-1.jpg') no-repeat;
+            background: url('../../../public/img/projects/invest.jpg') no-repeat;
             background-size: cover;
             background-position-y: 0;
             position: relative;
@@ -97,7 +98,7 @@
             background-color: rgba(19, 19, 58, 0.383);
         }
         .pj-two{
-             background: url('https://getbootstrap.com/docs/5.0/examples/features/unsplash-photo-2.jpg') no-repeat;
+             background: url('../../../public/img/projects/jornal.jpg') no-repeat;
             background-size: cover;
             background-position-y: 0;
             position: relative;

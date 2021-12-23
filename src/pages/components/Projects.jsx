@@ -21,7 +21,7 @@ const Projects = () => {
                         </p>
 
                         <div className="icons-project"> 
-                            <img src="/img/logo-dataselic-white.svg" alt="logo" width={40}/>
+                            <img src="/img/projects/logo-dataselic.svg" alt="logo" width={40}/>
                             <div className="icons-right-project">
 
                             <Link href="https://github.com/Samuelcs131/DataSelic"><a target="_blank" rel="noopener">
@@ -35,20 +35,22 @@ const Projects = () => {
                     
                     </div>
                     </div>
+
                     <div className="project pj-two"> 
                     <div className="container-project">
                         <div className="info-project">
-                            <h1 className="title-project">DataSelic</h1>
-                            <p>Uma forma fácil e prática de calcular seus investimento e os melhores investimentos de 2021.</p> 
+                            <h1 className="title-project">AjaxNews</h1>
+                            <p>Todas noticias sobre tecnologia em um só lugar.</p> 
                         </div> 
 
                     <div className="group-down-project">
                         <p className="tecnology-project">
-                                <span>Next.js</span> <span>Bootstrap</span> <span>Axios</span> <span>Vercel</span> <span>API Banco Central</span> <span>API IBGE</span> 
+                                <span>Next.js</span> <span>MySQL</span> <span>NodeJs</span> <span>Express</span> <span>Axios</span> <span>Bootstrap</span> <span>Vercel</span>
                         </p>
 
                         <div className="icons-project"> 
-                            <img src="/img/logo-dataselic-white.svg" alt="logo" width={40}/>
+                            <img src="/img/projects/logo-ajaxnews.svg" alt="logo" width={40}/>
+                            
                             <div className="icons-right-project">
 
                             <Link href="https://github.com/Samuelcs131/DataSelic"><a target="_blank" rel="noopener">
@@ -62,6 +64,7 @@ const Projects = () => {
                     
                     </div>
                     </div>
+
                     <div className="project pj-three"> 
                     <div className="container-project">
                         <div className="info-project">
@@ -75,7 +78,7 @@ const Projects = () => {
                         </p>
 
                         <div className="icons-project"> 
-                            <img src="/img/logo-dataselic-white.svg" alt="logo" width={40}/>
+                            <img src="/img/projects/logo-dataselic.svg" alt="logo" width={40}/>
                             <div className="icons-right-project">
 
                             <Link href="https://github.com/Samuelcs131/DataSelic"><a target="_blank" rel="noopener">
@@ -90,8 +93,6 @@ const Projects = () => {
                     </div>
                     </div>
                     
-             
-        {/* pj-two  pj-three */}
                 </div>
 
              
