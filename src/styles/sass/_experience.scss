@@ -5,34 +5,47 @@
         text-align: center;
         margin-bottom: 80px;
     }
-    html {
-        box-sizing: border-box;
+      
+     .title-experience{
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 5px;
+        a{
+            color: $clear-blue;
+        }
+     }
+     .time-experience{
+        margin-bottom: 5px;
+        font-weight: 300;
+        font-size: 15px;
+     }
+     .list-experience {
+         margin-top: 10px;
+     }
+     .list-experience li{
+         font-size: 15px;
+         position: relative;
+         padding-left: 20px;
+         margin-bottom: 10px;
+     }
+     .list-experience li::before {
+         content: '▹';
+         color: $clear-blue;
+         position: absolute;
+         left: 0;
       }
       
-     
-      
-      
-      a {
-        display: inline-block;
-        color: inherit;
-        text-decoration: none;
-        text-decoration-skip-ink: auto;
-        transition: color 0.25s ease;
-      }
-      
-      p {
-        margin: 0;
-      }
-      
+      /* CONFIG EXPERIENCE */
+
       $spacing: 20px;
-      $purple: #fff;
+      $purple: $text-white;
       $tab-height: 40px;
       
       .container {
         position: relative;
         margin: $spacing auto;
         padding: $spacing;
-        width: 500px;
+        width: 700px;
         display: flex;
         align-items: flex-start;
       
@@ -45,13 +58,15 @@
           .tab {
             width: 100px;
             height: $tab-height;
-            text-align: center;
+            text-align: left;
             font-weight: bold;
             font-size: 14px;
             padding: 10px 0;
             transition: all 0.25s ease;
             border-left: 2px solid #5f6368;
             color: #5f6368;
+            cursor: pointer;
+            padding-left: 20px;
       
             &:hover {
               color: $purple;
@@ -116,5 +131,46 @@
           }
         }
       }
-      
+}
+
+@media screen and (max-width: 800px) {
+    #experience{
+        .container{
+            flex-direction: column;
+            width: 100%;
+
+            .tabs{
+                margin-bottom: 40px;
+                .tab{
+                    border-left: none;
+                    border-bottom: 2px solid #5f6368;
+
+                    @for $i from 1 through 3 {
+                        &.tab-#{$i}.active {
+                          & ~ .highlighter {
+                            transform: translateX(#{($i*100) - 100});
+                          }
+                        }
+                      }
+                }
+                 
+                .highlighter{
+                    
+                    display: block;
+                    background: #fff;
+                    width: 100px;
+                    height: 2px;
+                    position: absolute;
+                    top: inherit;
+                    left: 0;
+                    bottom: 0;
+                    transform: translateY(0);
+                    transition: transform 0.2s ease;
+                    transition-delay: 0.1s;
+                    z-index: 10;
+                }
+            }
+            
+        }
+    }
 }

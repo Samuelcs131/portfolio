@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 const Navbar = () => {
   
@@ -43,7 +43,7 @@ const Navbar = () => {
     return (
         <header className="navbar">
         <nav className="container">
-           <a href="#" className="logo-navbar">SΔmuel</a>
+           <a href="/" className="logo-navbar">SΔmuel</a>
            <div className="mobile-menu">
                <div className="line1"></div>
                <div className="line2"></div>
@@ -54,7 +54,7 @@ const Navbar = () => {
                <li><a href="#about">Sobre</a></li>
                <li><a href="#skills">Conhecimento</a></li>
                <li><a href="#projects">Projetos</a></li>
-               <li><a href="#experience">Serviços</a></li>
+               <li><a href="#experience">Experiência</a></li>
            </ul>
         </nav>
         </header>

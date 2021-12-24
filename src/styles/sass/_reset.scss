@@ -25,13 +25,16 @@ html {
 }
 
 ::-webkit-scrollbar{
-    width: 7px;
+    width: 6px;
+    
 }
 ::-webkit-scrollbar-track{
     background-color: $dark-blue-main;
 }
+
 ::-webkit-scrollbar-thumb{
-    background-color: rgb(212, 212, 212);
+    background-color: rgba(212, 212, 212, 0.582);
+    border-radius: 5px;
 }
 
 body{
@@ -41,6 +44,6 @@ body{
     scrollbar-color: $dark-blue-main $dark-blue-main;
 }
 
-p {color: white;}
+p {color: $text-white;}
 
-h1,h2,h3,h4,h5,h6 {color: white;}
+h1,h2,h3,h4,h5,h6 {color: $text-white;}
