@@ -1,3 +1,19 @@
+@mixin sizeImage {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-color: rgba(19, 19, 58, 0.383);
+}
+@mixin imagemProject($linkImage) {
+    background: url($linkImage) no-repeat;
+    background-size: cover;
+    background-position-y: 0;
+    position: relative;
+}
+
+
 #projects{
     background-color: $dark-blue;
     color: $text-white;
@@ -83,47 +99,24 @@
 
         /* PROJECT IMAGE */
         .pj-one{
-            background: url('../../../public/img/projects/invest.jpg') no-repeat;
-            background-size: cover;
-            background-position-y: 0;
-            position: relative;
-           
-        }
-        .pj-one::before{
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            left: 0;
-            background-color: rgba(19, 19, 58, 0.383);
+            @include imagemProject('../../../public/img/projects/invest.jpg');
         }
         .pj-two{
-             background: url('../../../public/img/projects/jornal.jpg') no-repeat;
-            background-size: cover;
-            background-position-y: 0;
-            position: relative;
+            @include imagemProject('../../../public/img/projects/jornal.jpg');
+        }
+        
+        .pj-three{
+            @include imagemProject('../../../public/img/projects/vaccine.jpg');
+            /* vaccine.jpg */
+        }
+        .pj-one::before{
+            @include sizeImage();
         }
         .pj-two::before{
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            left: 0;
-            background-color: rgba(19, 19, 58, 0.383);
-        }
-        .pj-three{
-             background: url('https://images.pexels.com/photos/3825529/pexels-photo-3825529.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') no-repeat;
-            background-size: cover;
-            background-position-y: 0;
-            position: relative;
+            @include sizeImage();
         }
         .pj-three::before{
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            left: 0;
-            background-color: rgba(19, 19, 58, 0.383);
+            @include sizeImage();
         }
     }
 
