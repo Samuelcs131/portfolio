@@ -83,9 +83,6 @@
             .icons-right-project { 
                 display: flex;
                 align-items: center;
-                svg{
-                    width: 22px;
-                }
                 a{
                     transition: 0.3s;
                 }
@@ -94,6 +91,9 @@
                     transition: 0.3s;
                 }
                
+            }
+            .icons-right-project img:nth-child(1){
+                margin-right: 15px; width: 20px;
             }
             .icons-right-project svg:nth-child(1){
                 margin-right: 15px; width: 20px;

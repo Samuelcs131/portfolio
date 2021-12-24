@@ -30,11 +30,18 @@ $clear-blue: #64edff;
     font-size: 40px;
     font-weight: 500;
 }
-
+.container{
+    @include grid-contaier(1140px);
+    padding: 0 50px;
+}
+.container-section{
+    @include grid-contaier(1140px);
+    padding: 100px 50px;
+} 
 
 /* MENU */
 @import './menu';
-/* SECTIONS */
+/* APRESENTATION */
 @import './apresentation';
 /* ABOUT */
 @import './about';
@@ -42,8 +49,9 @@ $clear-blue: #64edff;
 @import './skills';
 /* PROJECTS */
 @import './projects';
-/* GRID */ 
-@import './grid';
+/* FOOTER */
+@import './footer';
+
 
 
 @media screen and (max-width: 720px) {

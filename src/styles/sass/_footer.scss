@@ -1,0 +1,42 @@
+#footer{
+    color: $text-white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .container-footer{
+         @include d-flex(space-between, center);
+         border-top: 1px solid #222631;
+         padding-top: 30px;
+    }
+    .icons-footer{
+        width: 120px;
+        @include d-flex(space-between, center);
+        a{ 
+            display: flex;
+        }
+        svg{
+            stroke: rgb(224, 224, 224);
+            width: 22px;
+        }
+        svg:hover{
+            stroke: $clear-blue;
+            transition: 0.3s;
+            fill: #64edff34;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #footer{
+        .container-footer{
+            flex-direction: column;
+        }
+        span{
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .icons-footer{
+            width: 150px;
+        }
+    }
+}
