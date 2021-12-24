@@ -8,7 +8,7 @@ const Projects = () => {
 
                 <div className="container-projects">
 
-                    <div className="project pj-one" image-project="../../../public/img/projects/invest.jpg"> 
+                    <div className="project pj-one"> 
                     <div className="container-project">
                         <div className="info-project">
                             <h1 className="title-project">DataSelic</h1>
@@ -21,7 +21,7 @@ const Projects = () => {
                         </p>
 
                         <div className="icons-project"> 
-                            <img src="/img/projects/logo-dataselic.svg" alt="logo" width={40} height={40}/>
+                            <img src="/img/projects/logo-dataselic.svg" alt="logo" width={40} height={40} style={{padding: '4px'}}/>
                             <div className="icons-right-project">
 
                             <Link href="https://github.com/Samuelcs131/DataSelic"><a target="_blank" rel="noopener">
@@ -49,7 +49,7 @@ const Projects = () => {
                         </p>
 
                         <div className="icons-project"> 
-                            <img src="/img/projects/logo-ajaxnews.svg" alt="logo" width={40} height={40}/>
+                            <img src="/img/projects/logo-ajaxnews.svg" alt="logo" width={40} height={40} />
                             
                             <div className="icons-right-project">
 
@@ -78,7 +78,7 @@ const Projects = () => {
                         </p>
 
                         <div className="icons-project"> 
-                            <img src="/img/projects/logo-civa.svg" alt="logo" width={40} height={40}/>
+                            <img src="/img/projects/logo-civa.svg" alt="logo" width={40} height={40} style={{padding: '4px'}}/>
                             <div className="icons-right-project">
 
                             <Link href="https://github.com/Forsoft-Academy-Full-Stack/forsoft-civa"><a target="_blank" rel="noopener">

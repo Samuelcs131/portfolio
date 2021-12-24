@@ -10,6 +10,7 @@
     background: url($linkImage) no-repeat;
     background-size: cover;
     background-position-y: 0;
+    background-position: center;
     position: relative;
 }
 
@@ -77,6 +78,8 @@
             justify-content: space-between;
             align-items: center;
 
+               
+
             .icons-right-project { 
                 display: flex;
                 align-items: center;
@@ -107,7 +110,6 @@
         
         .pj-three{
             @include imagemProject('../../../public/img/projects/vaccine.jpg');
-            /* vaccine.jpg */
         }
         .pj-one::before{
             @include sizeImage();
