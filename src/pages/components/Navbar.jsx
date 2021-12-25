@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useEffect } from "react";
 
 const Navbar = () => {
@@ -43,7 +44,7 @@ const Navbar = () => {
     return (
         <header className="navbar">
         <nav className="container">
-           <a href="/" className="logo-navbar">SΔmuel</a>
+           <Link href="/"><a className="logo-navbar">SΔmuel</a></Link>
            <div className="mobile-menu">
                <div className="line1"></div>
                <div className="line2"></div>
