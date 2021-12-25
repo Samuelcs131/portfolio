@@ -138,17 +138,23 @@
         .container{
             flex-direction: column;
             width: 100%;
+        
+        .content{
+          padding: 0;
+        }
 
             .tabs{
                 margin-bottom: 40px;
                 .tab{
                     border-left: none;
                     border-bottom: 2px solid #5f6368;
+                    text-align: center;
+                    padding-left: 0;
 
                     @for $i from 1 through 3 {
                         &.tab-#{$i}.active {
                           & ~ .highlighter {
-                            transform: translateX(#{($i*100) - 100});
+                            transform: translateX(#{($i*100px) - 100px});
                           }
                         }
                       }

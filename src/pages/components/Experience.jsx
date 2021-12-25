@@ -38,15 +38,8 @@ const Experience = () => {
             {/* EXPERIENCE 1 */}
             <button className="tab tab-1 active" data-tab="1">
               Forsoft
-            </button>
+            </button>  
             
-            {/* EXPERIENCE 2 */}
-            <button className="tab tab-2" data-tab="2">
-              Forsoft
-            </button>
-            
-        
-
             <span className="highlighter"></span>
           </div>
 
@@ -68,21 +61,6 @@ const Experience = () => {
               </ul>
             </div>
             
-            {/* EXPERIENCE 2 */}
-            <div className="content__section" data-tab="2">
-              <h3 className="title-experience">
-                Dev Full Stack <Link href="https://www.linkedin.com/company/forsoftacademy/"><a target="_blank" rel="noopener">@Forsoft Academy</a></Link>
-              </h3>
-              <p className="time-experience">Maio - Dezembro 2021</p>
-              <ul className="list-experience">
-                <li>
-                  Desenvolvendo páginas web com HTML, CSS, JavaScript, Sass, Bootstrap
-                </li>
-                <li>
-                  Responsável pela equipe de UI, desenvolvendo as telas utilizando o Figma
-                </li>
-              </ul>
-            </div>
             
         
 
