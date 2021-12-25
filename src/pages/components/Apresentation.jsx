@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const Apresentation = () => {
     return ( 
         <section id="apresentation" className="container-section">
@@ -11,7 +13,7 @@ const Apresentation = () => {
 
                 <p className="resume">Atualmente estudando Analise e desenvolvimento de sistemas. </p>
 
-                <button className="view-more">LinkedIn</button>
+                <Link href="https://www.linkedin.com/in/samuelcs131/"><a target="_blank" rel="noopener"><button className="view-more">LinkedIn</button></a></Link>
             </div>
             
         </section>
