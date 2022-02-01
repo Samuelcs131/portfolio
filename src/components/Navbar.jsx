@@ -39,7 +39,7 @@ const Navbar = () => {
             })
         }
 
-    })
+    }) 
  
     return (
         <header className="navbar">

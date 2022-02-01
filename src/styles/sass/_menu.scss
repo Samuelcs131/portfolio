@@ -2,7 +2,7 @@
     z-index: 1000;
     backdrop-filter: blur(15px);
     background-color: #070d1ea8;
-    position: fixed;
+    position: fixed; 
     width: 100%;
     border-bottom: 1px solid #222631;
      
@@ -24,12 +24,27 @@
             display: flex;
             
             li a{
-                margin: 0 20px;
+                margin: 0 5px;
                 color: $text-white;
-                user-select: none;
-                
+                user-select: none; 
+                position: relative;
+                padding: 15px;
+
                 &:hover{
                 color: $clear-blue;
+                transition: 0.5s;
+                }
+            }
+            li {
+                a:hover:after{
+                    content: '>';
+                    position: absolute;
+                    right: 0;
+                }
+                a:hover:before{
+                    content: '<';
+                    position: absolute;
+                    left: 0;
                 }
             }
              

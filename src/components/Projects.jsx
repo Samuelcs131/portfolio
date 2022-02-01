@@ -40,12 +40,12 @@ const Projects = () => {
                     <div className="container-project">
                         <div className="info-project">
                             <h1 className="title-project">AjaxNews</h1>
-                            <p>Todas noticias sobre tecnologia em um só lugar.</p> 
+                            <p>Todas noticias em um só lugar.</p> 
                         </div> 
 
                     <div className="group-down-project">
                         <p className="tecnology-project">
-                                <span>Next.js</span> <span>MySQL</span> <span>NodeJs</span> <span>Express</span> <span>Axios</span> <span>Bootstrap</span> <span>Vercel</span>
+                                <span>Next.js</span> <span>MySQL</span> <span>NodeJs</span> <span>Express</span> <span>Axios</span> <span>Bootstrap</span> <span>AWS S3</span> <span>Vercel</span> <span>Heroku</span>
                         </p>
 
                         <div className="icons-project"> 
