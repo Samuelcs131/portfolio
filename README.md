@@ -1,5 +1,5 @@
-# [Portfólio](https://samuel-claudino.vercel.app)
-Portifólio para apresentar meus projetos e habilidades. [Acessar projeto](https://samuel-claudino.vercel.app)
+# [Portfólio](https://samuelclaudino.vercel.app)
+Portifólio para apresentar meus projetos e habilidades. [Acessar projeto](https://samuelclaudino.vercel.app)
 
 ## Iniciar projeto em servidor local
 
