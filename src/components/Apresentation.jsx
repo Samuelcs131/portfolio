@@ -20,7 +20,4 @@ const Apresentation = () => {
      );
 }
  
-export default Apresentation;
-
-
-{/* <img src="/img/tech_ilustration.svg" alt="ilustrativo" /> */}
+export default Apresentation; 
