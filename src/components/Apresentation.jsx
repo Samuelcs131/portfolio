@@ -13,7 +13,7 @@ const Apresentation = () => {
 
                 <p className="resume">Atualmente estudando Analise e desenvolvimento de sistemas. </p>
 
-                <Link href="https://www.linkedin.com/in/samuelcs131/"><a target="_blank" rel="noopener"><button className="view-more">LinkedIn</button></a></Link>
+                <Link href="/resume/Curriculo-Samuel_Claudino_2022.pdf"><a target="_blank" rel="noopener"><button className="view-more">Download CV</button></a></Link>
             </div>
             
         </section>
