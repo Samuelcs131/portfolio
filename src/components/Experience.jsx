@@ -38,7 +38,7 @@ const Experience = () => {
             {/* EXPERIENCE 1 */}
             <button className="tab tab-1 active" data-tab="1">
               Forsoft
-            </button>  
+            </button>   
             
             <span className="highlighter"></span>
           </div>

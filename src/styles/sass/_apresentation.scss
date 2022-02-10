@@ -15,8 +15,7 @@
     .name{
         font-size: 75px;
         font-weight: 500;
-         margin-bottom: -15px;
-       /* margin-top: -15px; */
+         margin-bottom: -15px; 
     }
 
     .office{
@@ -25,16 +24,21 @@
         font-weight: 500;
     }
 
-    .view-more{
+    a {
         display: block;
-        margin-top: 30px;
-        border: 1px solid $clear-blue;
-        border-radius: 4px;
-        padding: 10px 20px;
-        color: $clear-blue;
-        font-size: 16px;
-        cursor: pointer;
-        transition: 0.3s;
+        width: 151px; 
+
+        .view-more{
+            display: block;
+            margin-top: 30px;
+            border: 1px solid $clear-blue;
+            border-radius: 4px;
+            padding: 10px 20px;
+            color: $clear-blue;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
     }
     .view-more:hover{
         background-color: #64edff34;
