@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import Project from '../components/Project';
+import DataProjects from '../../public/DataProjects.json'
 
 const Projects = () => {
     return ( 
@@ -8,6 +10,8 @@ const Projects = () => {
 
                 <div className="container-projects">
 
+                <Project projectData={DataProjects} />
+                    {/* 
                     <div className="project pj-one"> 
                     <div className="container-project">
                         <div className="info-project">
@@ -91,7 +95,7 @@ const Projects = () => {
                     </div>
                     
                     </div>
-                    </div>
+                    </div> */}
                     
                 </div>
 

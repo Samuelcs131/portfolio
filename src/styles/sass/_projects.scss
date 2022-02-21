@@ -1,24 +1,16 @@
-@mixin sizeImage {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    background-color: rgba(19, 19, 58, 0.383);
-}
-@mixin imagemProject($linkImage) {
-    background: url($linkImage) no-repeat;
-    background-size: cover;
-    background-position-y: 0;
-    background-position: center;
-    position: relative;
-}
-
-
 #projects{
     background-color: $dark-blue;
     color: $text-white;
 
+    .container-project{
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+        width: 100%; 
+    }
+    
     .title-section{
         text-align: center;
         margin-bottom: 80px;
@@ -27,6 +19,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        gap: 25px;
     
         .project{
             background-color: $dark-blue-main;
@@ -40,12 +33,12 @@
             align-items: center;
 
             .container-project{
-                z-index: 1;
+                z-index: 5;
                 display: flex;
                 justify-content: space-between;
                 flex-direction: column;
                 height: 100%;
-                width: 100%;
+                width: 100%; 
             }
         }
         /* PROJECT INFO */
@@ -99,27 +92,7 @@
                 margin-right: 15px; width: 20px;
             }
         }
-
-        /* PROJECT IMAGE */
-        .pj-one{
-            @include imagemProject('../../../public/img/projects/invest.jpg');
-        }
-        .pj-two{
-            @include imagemProject('../../../public/img/projects/jornal.jpg');
-        }
-        
-        .pj-three{
-            @include imagemProject('../../../public/img/projects/vaccine.jpg');
-        }
-        .pj-one::before{
-            @include sizeImage();
-        }
-        .pj-two::before{
-            @include sizeImage();
-        }
-        .pj-three::before{
-            @include sizeImage();
-        }
+ 
     }
 
 }
@@ -129,21 +102,7 @@
         .container-projects {
             gap: 40px;
             justify-content: center;
-            .project{
-                width: 700px; 
-            }
-            
         }
     }
 }
-
-@media screen and (max-width: 400px) {
-    #projects{
-        .container-projects { 
-            .project{
-                height: 450px;
-            }
-            
-        }
-    }
-}
+ 
