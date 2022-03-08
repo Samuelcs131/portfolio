@@ -23,6 +23,11 @@ const ProjectContainer = styled.div`
     left: 0;
     background-color: rgba(19, 19, 58, 0.383);
     }
+ 
+    &:nth-child(4){
+        width: 100%;
+    }
+    
     @media screen and (max-width: 1140px) {
         width: 700px; 
     }

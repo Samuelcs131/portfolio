@@ -30,7 +30,7 @@
             position: relative;
             padding: 30px;
             display: flex;
-            align-items: center;
+            align-items: center; 
 
             .container-project{
                 z-index: 5;
@@ -99,6 +99,9 @@
 
 @media screen and (max-width: 1140px) {
     #projects{
+        .project{
+            width: 100px;
+        }
         .container-projects {
             gap: 40px;
             justify-content: center;

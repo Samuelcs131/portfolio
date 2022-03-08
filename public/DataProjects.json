@@ -19,12 +19,21 @@
     }, 
     {"title": "Future Motors",
     "description": "Site de venda de carros do futuro e de alta tecnologia.", 
-    "technologies": ["JavaScript", "Next.js", "Sass"], 
+    "technologies": ["JavaScript", "Next.js", "Sass", "Vercel"], 
     "imageURL": "/img/projects/logo-dataselic.svg",
     "repository": "https://github.com/Samuelcs131/Future-Motors",
     "projectURL": "https://futuremotors.vercel.app",
     "iconProject": "/img/projects/logo-futuresmotors.svg",
     "imageProject": "/img/projects/cars.jpg"
+    },
+    {"title": "OnlyMedical",
+    "description": "Faça o monitoramento de todos os exames de seus pacientes da sua clinica, capaz de produzindo relatórios e gráficos, tudo isso em uma interface moderna.", 
+    "technologies": ["JavaScript", "Next.js", "GraphQL", "ApexCharts", "Apollo Client","Material UI"], 
+    "imageURL": "/img/projects/logo-dataselic.svg",
+    "repository": "https://github.com/Samuelcs131/OnlyMedical",
+    "projectURL": "https://onlymedical.vercel.app",
+    "iconProject": "/img/projects/logo-onlymedical.svg",
+    "imageProject": "/img/projects/medical.jpg"
     }
 ]
 
