@@ -1,8 +1,4 @@
 /* COLOR SKILLS */
-@mixin border-line($color) {
-    border:  1px solid;
-    border-image: linear-gradient( to top, $color, rgba(0, 0, 0, 0) ) 1;
-}
 
 #skills{
     text-align: center;
@@ -44,33 +40,7 @@
             content: attr(s-name);
             position: absolute;
             bottom: 10px;
-        }
-
-        .s-html:hover{
-            @include border-line(#d53a5c);
-        }
-        .s-css:hover{
-            @include border-line(#3a82d5);
-        }
-        .s-js:hover{
-            @include border-line(#d5cb3a);
-        }
-        .s-sass:hover{
-            @include border-line(#d53a87);
-        }
-        .s-react:hover{
-            @include border-line(#3abed5);
-        }
-        .s-next:hover{
-            @include border-line(#dddddd);
-        }
-        .s-node:hover{
-            @include border-line(#73d53a);
-        }
-        .s-mysql:hover{
-            @include border-line(#006995);
-        }
-        
+        } 
     }
     
 }

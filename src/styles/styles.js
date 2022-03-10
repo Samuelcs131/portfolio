@@ -38,4 +38,11 @@ const ProjectContainer = styled.div`
 
 `
 
-export {ProjectContainer}
+const SkillContainer = styled.div`
+    &:hover{
+        border:  1px solid;
+        border-image: linear-gradient( to top, ${props=> props.color}, rgba(0, 0, 0, 0) ) 1;
+    }
+`
+
+export {ProjectContainer, SkillContainer}
