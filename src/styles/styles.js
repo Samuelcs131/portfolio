@@ -47,13 +47,14 @@ const SkillContainer = styled.div`
     &:hover::before{
         content: '${props=> props.project}';
         position: absolute;
-        bottom: 2px;
+        bottom: 10px;
         font-size: 14px;
     }
 
     @media screen and (max-width: 480px) {
-        &:hover::before{ 
+        &:hover::before{  
             font-size: 12px;
+            bottom:  5px;
         }
     }
 `
