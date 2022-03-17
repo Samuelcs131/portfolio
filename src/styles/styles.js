@@ -44,10 +44,11 @@ const SkillContainer = styled.div`
         border-image: linear-gradient( to top, ${props=> props.color}, rgba(0, 0, 0, 0) ) 1;
     }
 
-    &::before{
+    &:hover::before{
         content: '${props=> props.project}';
         position: absolute;
-        bottom: 10px;
+        bottom: 2px;
+        font-size: 14px;
     }
 `
 
