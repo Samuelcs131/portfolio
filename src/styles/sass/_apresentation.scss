@@ -2,11 +2,23 @@
     position: relative;
     color: $text-white;
     height: 85vh;
-    @include d-flex(none,center);
-    
+    @include d-flex(none,center); 
+    z-index: 0;
+
+    &::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: url('../../../public/img/vecteezy.svg') no-repeat;
+        background-size: cover;
+        background-position: 295px -15px;
+        z-index: 0;
+        clip-path: circle(360px);
+    }
 
     .group-text-apresentation{ 
-
+    z-index: 1;
     .hello{ 
         font-size: 25px;
         font-weight: 200;
@@ -15,14 +27,21 @@
     .name{
         font-size: 75px;
         font-weight: 500;
-         margin-bottom: -15px; 
+        margin-top: -25px; 
+        margin-bottom: -15px;
     }
 
-    .office{
-        color: #5f6575;
-        font-size: 75px;
+
+    .office {
+        width: 20.2ch;
+        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-size: 2em;
+        color: #62c6e4;
         font-weight: 500;
-    }
+    } 
 
     a {
         display: block;
@@ -50,8 +69,24 @@
         font-size: 16px;
     }
 }
+
+    /* ANIMATIONS */
+    @keyframes typing {
+        from {
+        width: 0
+        }
+    }
+        
+    @keyframes blink {
+        50% {
+        border-color: transparent
+        }
+    }
+  
 }
 
+
+/* RESOLUTIONS */
 
 @media screen and (max-width: 920px) {
     #apresentation{ 
@@ -61,9 +96,10 @@
             }
             .name{
                 font-size: 55px; 
+                margin-top: -20px; 
             }
             .office{
-                font-size: 55px;
+                font-size: 25px;
             } 
         }
     }
@@ -73,10 +109,11 @@
     #apresentation{ 
         .group-text-apresentation{ 
             .hello{ 
-                font-size: 15px;
+                font-size: 15px; 
             }
             .name{
                 font-size: 30px; 
+                margin-top: -10px; 
             }
             .office{
                 font-size: 30px; 

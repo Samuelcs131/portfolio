@@ -9,7 +9,9 @@ const Apresentation = () => {
 
                 <h1 className="name">Samuel Claudino</h1>
 
-                <span className="office">Full Stack Developer</span>
+                <div className='wrapper-office'>
+                    <div className="office">Desenvolvedor Full Stack</div>
+                </div>
 
                 <p className="resume">Atualmente estudando Analise e desenvolvimento de sistemas. </p>
 
