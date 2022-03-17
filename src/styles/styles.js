@@ -50,6 +50,12 @@ const SkillContainer = styled.div`
         bottom: 2px;
         font-size: 14px;
     }
+
+    @media screen and (max-width: 480px) {
+        &:hover::before{ 
+            font-size: 12px;
+        }
+    }
 `
 
 export {ProjectContainer, SkillContainer}

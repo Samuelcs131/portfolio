@@ -35,11 +35,6 @@
         .skill-item:hover{
             transition: 0.3s;
             transform: scale(1.2);
-        }
-        .skill-item:hover::after{
-            content: attr(s-name);
-            position: absolute;
-            bottom: 10px;
         } 
     }
     
@@ -62,13 +57,6 @@
                 width: 120px;
                 height: 120px;
             }
-        }
-
-        .skill-item:hover::after{
-            content: attr(s-name);
-            position: absolute; 
-            margin-bottom: -5px;
-            font-size: 12px;
-        }
+        } 
     }
 }
