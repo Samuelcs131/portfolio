@@ -10,9 +10,9 @@ const Skills = () => {
                 <div className="container-skills">
 
                     {DataTechnologies.length !== 0 ?
-                    (DataTechnologies.map( tech => {
+                    (DataTechnologies.map( (tech, index) => {
                         return ( 
-                            <SkillContainer className="skill-item" color={tech.color} >
+                            <SkillContainer key={index} className="skill-item" color={tech.color} project={tech.name}>
                                 <Image src={tech.icon} width="60px" height="60px" alt={`icone ${tech.name}`}/>
                             </SkillContainer>
                          )

@@ -89,7 +89,12 @@
 /* RESOLUTIONS */
 
 @media screen and (max-width: 920px) {
-    #apresentation{ 
+    #apresentation{
+
+        &::before{
+            left: -10px;
+        }
+
         .group-text-apresentation{ 
             .hello{ 
                 font-size: 25px;
@@ -106,17 +111,24 @@
 }
 
 @media screen and (max-width: 720px) {
-    #apresentation{ 
-        .group-text-apresentation{ 
+    #apresentation{
+
+        &::before{ 
+            background-position: 230px 0;
+            left: 0px;
+            clip-path: none;
+        }
+
+        .group-text-apresentation{
             .hello{ 
-                font-size: 15px; 
+                font-size: 15px;
             }
             .name{
-                font-size: 30px; 
-                margin-top: -10px; 
+                font-size: 30px;
+                margin-top: -10px;
             }
             .office{
-                font-size: 30px; 
+                font-size: 30px;
             }
             .resume{ 
                 font-size: 16px;
@@ -129,6 +141,13 @@
 @media screen and (max-width: 450px) {
     #apresentation{
         overflow: hidden;
+        
+        &::before{ 
+            background-position: 100px 0;
+            left: 0px;
+            clip-path: none;
+        }
+
         .group-text-apresentation{ 
             overflow: hidden;
             .hello{ 

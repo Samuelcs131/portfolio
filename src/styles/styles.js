@@ -43,6 +43,12 @@ const SkillContainer = styled.div`
         border:  1px solid;
         border-image: linear-gradient( to top, ${props=> props.color}, rgba(0, 0, 0, 0) ) 1;
     }
+
+    &::before{
+        content: '${props=> props.project}';
+        position: absolute;
+        bottom: 10px;
+    }
 `
 
 export {ProjectContainer, SkillContainer}
