@@ -28,11 +28,13 @@ const ProjectContainer = styled.div`
         width: 100%;
     }
     
-    @media screen and (max-width: 1140px) {
-        width: 700px; 
+    @media screen and (max-width: 1145px) {
+        width: 700px;
+        &:nth-child(4){ width: 700px; }
     }
     @media screen and (max-width: 400px) {
         height: 450px;
+        &:nth-child(4){ height: 450px; }
     }
 
 
