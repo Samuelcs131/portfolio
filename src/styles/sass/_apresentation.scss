@@ -104,6 +104,7 @@
                 margin-top: -20px; 
             }
             .office{
+                width: 55%; 
                 font-size: 25px;
             } 
         }
@@ -129,10 +130,21 @@
             }
             .office{
                 font-size: 30px;
+                width: 77%; 
             }
             .resume{ 
                 font-size: 16px;
                 width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 485px) {
+    #apresentation{
+        .group-text-apresentation{ 
+            .office{
+                width: 102%;
             }
         }
     }
