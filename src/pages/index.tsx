@@ -6,23 +6,25 @@ import About from '../components/About'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects' 
 import Footer from '../components/Footer'
-import Head from 'next/head'
+import Head from 'next/head'  
+import { Suspense } from 'react'
+import Loading from '../components/Loading'
 
-
-
-const Home: NextPage<iHome> = ({dataCurriculum}) => { 
+const Home: NextPage = ({dataCurriculum}: iHome) => { 
   return (<>
     <Head><title>Samuel Claudino - Desenvolvedor Full Stack</title></Head>
+    
+    <Suspense fallback={<Loading/>}>
+      <Intro dataProfile={dataCurriculum.profile}/>
 
-    <Intro dataProfile={dataCurriculum.profile}/>
+      <About dataAbout={dataCurriculum.about}/>
 
-    <About dataAbout={dataCurriculum.about}/>
+      <Skills dataSkills={dataCurriculum.technologies} />
 
-    <Skills dataSkills={dataCurriculum.technologies} />
+      <Projects dataProjects={dataCurriculum.projects}/>
 
-    <Projects dataProjects={dataCurriculum.projects}/>
-
-    <Footer dataContact={dataCurriculum.contact} />
+      <Footer dataContact={dataCurriculum.contact} />
+    </Suspense> 
   </>)
 }
 
