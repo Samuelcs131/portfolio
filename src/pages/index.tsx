@@ -10,7 +10,7 @@ import Head from 'next/head'
 import { Suspense } from 'react'
 import Loading from '../components/Loading'
 
-const Home: NextPage = ({dataCurriculum}: iHome) => { 
+const Home: NextPage<iHome> = ({dataCurriculum}: iHome) => { 
   return (<>
     <Head><title>Samuel Claudino - Desenvolvedor Full Stack</title></Head>
     
