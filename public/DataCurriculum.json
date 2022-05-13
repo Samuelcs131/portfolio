@@ -1,0 +1,73 @@
+[
+    {
+        "profile": {
+            "name": "Samuel Claudino",
+            "office": "Desenvolvedor Full Stack",
+            "description": "Atualmente estudando Analise e desenvolvimento de sistemas.",
+            "curriculum": ""
+        },
+        
+        "about": "Meu nome é Samuel Claudino, tenho 21 anos. Atualmente faço faculdade de Análise e desenvolvimento de sistemas, visando ser um Desenvolvedor Full Stack. Desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, responsividade e SEO.",
+
+        "technologies": [
+            {"name": "HTML", "icon": "/img/technologies/html.svg", "color": "#d53a5c"},
+            {"name": "CSS", "icon": "/img/technologies/css.svg", "color": "#3a82d5"},
+            {"name": "JavaScript", "icon": "/img/technologies/javascript.svg", "color": "#d5cb3a"},
+            {"name": "Sass", "icon": "/img/technologies/sass.svg", "color": "#d53a87"},
+            {"name": "ReactJs", "icon": "/img/technologies/reactjs.svg", "color": "#3abed5"},
+            {"name": "Next.js", "icon": "/img/technologies/nextjs.svg", "color": "#dddddd"},
+            {"name": "NodeJs", "icon": "/img/technologies/nodejs.svg", "color": "#73d53a"},
+            {"name": "MySQL", "icon": "/img/technologies/mysql.svg", "color": "#006995"}
+        ],
+
+        "projects": [
+            {"title": "DataSelic", 
+            "description": "Uma forma fácil e prática de calcular seus investimento e os melhores investimentos de 2021.", 
+            "technologies": ["Next.js", "Bootstrap", "Axios", "Vercel", "API Banco Central", "API IBGE"], 
+            "imageURL": "/img/projects/logo-dataselic.svg",
+            "repository": "https://github.com/Samuelcs131/DataSelic",
+            "projectURL": "http://dataselic.vercel.app",
+            "iconProject": "/img/projects/logo-dataselic.svg",
+            "imageProject": "/img/projects/invest.jpg"
+            },
+            {"title": "AjaxNews", 
+            "description": "Todas noticias em um só lugar.", 
+            "technologies": ["Next.js", "MySQL", "NodeJs", "Express", "Axios", "Bootstrap", "AWS S3", "Vercel", "Heroku"], 
+            "imageURL": "/img/projects/logo-dataselic.svg",
+            "repository": "https://github.com/Samuelcs131/ajaxNews-frontend",
+            "projectURL": "https://ajaxnews.vercel.app",
+            "iconProject": "/img/projects/logo-ajaxnews.svg",
+            "imageProject": "/img/projects/jornal.jpg"
+            }, 
+            {"title": "Future Motors",
+            "description": "Site de venda de carros do futuro e de alta tecnologia.", 
+            "technologies": ["JavaScript", "Next.js", "Sass", "Vercel"], 
+            "imageURL": "/img/projects/logo-dataselic.svg",
+            "repository": "https://github.com/Samuelcs131/Future-Motors",
+            "projectURL": "https://futuremotors.vercel.app",
+            "iconProject": "/img/projects/logo-futuresmotors.svg",
+            "imageProject": "/img/projects/cars.jpg"
+            },
+            {"title": "OnlyMedical",
+            "description": "Monitoramento de todos os exames de pacientes, capaz de produzindo relatórios e gráficos.", 
+            "technologies": ["JavaScript", "Next.js", "GraphQL", "ApexCharts", "Apollo Client","Material UI"], 
+            "imageURL": "/img/projects/logo-dataselic.svg",
+            "repository": "https://github.com/Samuelcs131/OnlyMedical",
+            "projectURL": "https://onlymedical.vercel.app",
+            "iconProject": "/img/projects/logo-onlymedical.svg",
+            "imageProject": "/img/projects/medical.jpg"
+            }
+        ],
+        "experience": [
+            {"companyShort": "Forsoft", "companyLarge":"Forsoft Academy", "companyLink":"/", "office": "Dev Full Stack", "date": "Maio - Dezembro 2021", 
+            "description": ["Desenvolvendo páginas web com HTML, CSS, JavaScript, Sass, Bootstrap","Responsável pela equipe de UI, desenvolvendo as telas utilizando o Figma"]},
+            {"companyShort": "Forsoft", "companyLarge":"Forsoft Academy", "companyLink":"/", "office": "Dev Full Stack", "date": "Maio - Dezembro 2021", 
+            "description": ["Desenvolvendo páginas web com HTML, CSS, JavaScript, Sass, Bootstrap","Responsável pela equipe de UI, desenvolvendo as telas utilizando o Figma"]}
+        ],
+        "contact": {
+            "github": "https://github.com/samuelcs131",
+            "linkedin": "https://www.linkedin.com/in/samuelcs131/",
+            "email": "samuelcs131@gmail.com"
+        }
+    }
+]
